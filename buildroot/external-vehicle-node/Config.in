@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_VEHICLE_NODE_PATH/package/vehicle-node/Config.in"

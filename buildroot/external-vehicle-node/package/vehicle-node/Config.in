@@ -1,0 +1,7 @@
+config BR2_PACKAGE_VEHICLE_NODE
+	bool "vehicle-node"
+	depends on BR2_INSTALL_LIBSTDCPP
+	help
+	  A compact C++17 automotive Embedded Linux vehicle diagnostics
+	  node with a systemd service, SocketCAN/vCAN availability checks,
+	  JSON status output, and runtime logging.

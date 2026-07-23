@@ -1,0 +1,12 @@
+[Unit]
+Description=Embedded Linux Vehicle Diagnostics Node Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/vehicle-node --service
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

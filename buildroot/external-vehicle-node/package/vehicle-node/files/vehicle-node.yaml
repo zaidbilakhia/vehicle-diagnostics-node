@@ -1,0 +1,8 @@
+device_name: vehicle-gateway-buildroot-01
+platform_mode: buildroot-qemu
+vehicle_backend: socketcan
+can_interface: vcan0
+fallback_can_interface: can0
+diagnostic_mode: simulated
+software_version: 1.0.0
+service_interval_seconds: 5
